@@ -4,8 +4,6 @@ import pandas as pd
 
 df = pd.read_csv("CSVPath")
 
-
-
 gmaps = googlemaps.Client(key='Google Maps API Key')
 
 df["LAT"] = None
