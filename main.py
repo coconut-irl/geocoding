@@ -29,3 +29,4 @@ for i in range(0, len(df), 1):
         lat = None
         lng = None
         formatted_address = None
+        print(lat,lng,formatted_address)
